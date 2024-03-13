@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app div h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+#excuse {
+  font-size: 3rem;
+  color: white;
+  font-style: oblique;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  font-size: 12px;
+}
+
+.stacked-radial {
+  background: radial-gradient(
+      circle at 50% 0,
+      rgba(255, 0, 0, 0.5),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    radial-gradient(
+      circle at 6.7% 75%,
+      rgba(0, 0, 255, 0.5),
+      rgba(0, 0, 255, 0) 70.71%
+    ),
+    radial-gradient(
+        circle at 93.3% 75%,
+        rgba(0, 255, 0, 0.5),
+        rgba(0, 255, 0, 0) 70.71%
+      )
+      beige;
+}
